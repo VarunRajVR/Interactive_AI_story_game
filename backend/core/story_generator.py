@@ -11,10 +11,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-# sample Python code snippet
-import os
-openai_api_key = os.getenv("CHOREO_OPENAI_CONNECTION_OPENAI_API_KEY")
-serviceurl = os.getenv("CHOREO_OPENAI_CONNECTION_SERVICEURL")
+
 
 class StoryGenerator:
 
